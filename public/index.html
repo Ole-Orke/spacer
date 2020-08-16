@@ -11,22 +11,37 @@
     <div>
       <div class="header">
         <h1>S P A C E R</h1>
-        <h3>- Stay safe -</h3>
+        <div class="instructions">
+          <p>Instructions</p>
+          <p>Available desks are: <span style="color:rgba(124, 255, 124, 1)">green</span></p>
+          <p>Occupied desks are: <span style="color:rgba(70, 70, 230, 1)">blue</span></p>
+          <p>Unsafe desks are: <span style="color:rgba(200, 100, 100, 1)">red</span></p>
+          <p>Press <b>Change</b> to toggle between placing and choosing desks</p>
+          <p>Select/deselect seats by clickingon them</p>
+          <p>Place/delete desks by clicking on the map</p>
+          <p>Set the pixel/metre ratio by typing a number in the field and pressing <b>Submit</b> </p>
+        </div>
       </div>
-      <div id="currentControl">Choosing desks</div>
-      <button id="control" onclick="controlButtonPressed()">
-        Change
-      </button>
-      <button id="clearButton" onclick="clearButtonPressed()">
-        Clear
-      </button>
+
+    </div>
+    <div class="main-wrapper">
+      <div class="left-col">
+        <div id="currentControl">Choosing desks</div>
+        <button id="control" onclick="controlButtonPressed()">
+          Change
+        </button>
+        <button id="clearButton" onclick="clearButtonPressed()">
+          Clear
+        </button>
         <div>
           Pixels/metre:
           <input type="number" name="hello" id="scaleField" value="200">
           <button type="button" id="scaleButton" onclick="updateScale()">Submit</button>
         </div>
+      </div>
+      <div id="canvasContainer"></div>
     </div>
-    <div id="canvasContainer"></div>
+
 
   </body>
 <html>
