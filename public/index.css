@@ -19,6 +19,10 @@ h1 {
   display: block;
 }
 
+.instructions {
+  border-top: 2px solid black;
+}
+
 button {
   width: 90%;
   min-width: 100px;
@@ -30,6 +34,8 @@ button {
   justify-content: center;
   align-items: center;
   font-size: 1.4em;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 button:hover {
@@ -43,6 +49,8 @@ button:hover {
 
 .left-col {
   min-width: 150px;
+  border-top: 2px solid black;
+  padding-top: 30px;
 }
 
 #currentControl {
