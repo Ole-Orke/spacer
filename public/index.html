@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>S P A C E R</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+    <script src="standardLayout.js"></script>
+    <script src="sketch.js"></script>
+  </head>
+  <body>
+    <div>
+      <div class="header">
+        <h1>S P A C E R</h1>
+        <h3>- Stay safe -</h3>
+      </div>
+      <div id="currentControl">Choosing desks</div>
+      <button id="control" onclick="controlButtonPressed()">
+        Change
+      </button>
+      <button id="clearButton" onclick="clearButtonPressed()">
+        Clear
+      </button>
+        <div>
+          Pixels/metre:
+          <input type="number" name="hello" id="scaleField" value="200">
+          <button type="button" id="scaleButton" onclick="updateScale()">Submit</button>
+        </div>
+    </div>
+    <div id="canvasContainer"></div>
+
+  </body>
+<html>

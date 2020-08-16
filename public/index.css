@@ -1,0 +1,31 @@
+:root {
+  --occupied-blue: rgb(70, 70, 230);
+}
+
+* {
+  font-family: "lucida console";
+}
+
+button, input {
+  font-size: 1.3em;
+}
+
+.header {
+  padding-left: 40px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+#currentControl {
+  font-size: 1.5em;
+}
+
+#canvasContainer {
+  border: 2px solid black;
+}
